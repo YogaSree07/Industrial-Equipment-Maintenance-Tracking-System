@@ -1,0 +1,11 @@
+# ====================================================================
+# Apache Configuration for EquipTrack Pro
+# ====================================================================
+
+DirectoryIndex index.php index.html
+
+# Prevent directory listing
+Options -Indexes +FollowSymLinks
+
+# Character encoding
+AddDefaultCharset UTF-8
